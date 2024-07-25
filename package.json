@@ -1,0 +1,29 @@
+{
+  "name": "devbills-api",
+  "version": "1.0.0",
+  "description": "Devbills API - Controle Financeiro",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "dev": "tsx watch ./src/server.ts"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Italo Felipe",
+    "email": "italofelipe26@hotmail.com",
+    "url": "https://github.com/ItaloFdaS"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "@types/express": "^4.17.21",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^7.17.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
